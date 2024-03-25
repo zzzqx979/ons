@@ -1,0 +1,14 @@
+debug: true
+server:
+  port: 8080
+db:
+  type: mysql
+  source: username:password@tcp(ip:port)/db?charset-utf8
+redis:
+  addr: localhost:6379
+  password:
+  db:
+mqtt:
+  broker: localhost:18083
+  username: username
+  password: password
